@@ -1,0 +1,135 @@
+body{
+    background-image: url('../images/gray_jean.png');
+}
+
+header {
+    background-color: #fff;
+    height: 80px;
+    border-bottom: 2px solid #cccccc;
+   
+}
+
+h1{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    float: left;
+}
+
+
+.nav{
+    float: right;
+    color: #777777;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 0 0 30px;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    color: #4aaaa5;
+    background-color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.bio {
+    clear: both;
+    width: 650px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.bio img{
+    float: left;
+    padding: 10px;
+}
+
+.sidebar {
+    float: left;
+    background-color: #ffffff;
+    height: 100px;
+    padding: 30px;
+    color: #4aaaa5;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+h3{
+    border-bottom: solid 1px #cccccc;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    padding: 30px;
+    border-top: solid #4aaaa5 5px;
+    position: fixed;
+    bottom: 0;
+}
+
+#hangman {
+     background-image: url("../images/hangman.jpeg");
+   
+}
+
+#rpg {
+    background-image: url("../images/rpggame.jpeg");
+}
+
+#trivia {
+    background-image: url("../images/trivia.jpeg");
+}
+
+#rutgers {
+    background-image: url("../images/rutgers.jpeg");
+}
+
+#rock {
+    background-image: url("../images/rock.jpeg");
+}
+.portfolio {
+    height: 200px;
+    width: 300px;
+    margin: 0 20px 20px 0;
+    float: left;
+}
+.portfolio-title {
+    position: relative;
+    bottom: 0;
+    height: 10px;
+    width: 300px;
+    background-color: #4aaaa5
+    color: white;
+}
